@@ -1,5 +1,9 @@
 
-    }else{
-        cout << "buku tidak sedang dipinjam" << endl;
-    }
+
+friend class admin;
+class admin{
+    public:
+        void ubahlevelAkses(petugas p, const string newLevel){
+
+        }
 }
