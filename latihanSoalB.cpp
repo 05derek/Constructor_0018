@@ -1,12 +1,11 @@
 
 
-class buku{
+class peminjam{
     private:
-        string judul;
-        string penulis;
-        bool dipinjam;
+        string nama;
+        int id;
+        int totalpinjaman;
 
     public:
-        buku(string j, string p) : judul(j), penulis(p), dipinjam(false){}
-        friend class petugas;
+        peminjam (string n, int i) : nama(n), id(i), totalpinjaman(0){}      
 };
