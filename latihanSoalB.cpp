@@ -1,11 +1,13 @@
 
 
-class peminjam{
+class petugas{
     private:
         string nama;
-        int id;
-        int totalpinjaman;
+        int idPetugas;
+        string level akses;
 
     public:
-        peminjam (string n, int i) : nama(n), id(i), totalpinjaman(0){}      
-};
+        petuga(string n, int id, string level) : nama(n), idPetugas(id), levelAkses(level) {}
+
+
+}
